@@ -14,5 +14,31 @@ addBtn.addEventListener('click', () => {
   }
 })
 
+function toggleForm() {
+    addToy = !addToyif (addToy) {
+        toyForm.style.disply = 'block'
+    } else {
+      toyForm.stlye.disply = 'none'
+    }
+}
+
+const url = "www.reddit.com"
+
+function displayToys(toyArray) {
+  toyArray.forEach(toy => {
+    addToyCard(toy)
+  })
+}
+
+  function addToyCard(toy) {
+    
+  }
+
+function getToys( {
+  fetch(url)
+  .then(res => res.json())
+  .then(console.log)
+})
+
 
 // OR HERE!
